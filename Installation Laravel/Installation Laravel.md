@@ -51,7 +51,7 @@ composer create-project laravel/laravel nama_project
 ```
 cd pintegratif/
 ```
-Dan jalankan project dengan command
+•	Dan jalankan project dengan command
 ```
 php artisan serve
 ```
