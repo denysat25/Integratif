@@ -13,12 +13,12 @@
 
 •	Pilih variabel path untuk menambahkan alamat dari file php, kemudian pilih ok.
 
-•	Buka terminal dan ketikkan php –v, untuk memeriksa apakah php sudah berhasil terinstall
+•	Buka terminal dan ketikkan ``php –v``, untuk memeriksa apakah php sudah berhasil terinstall
 
 ## INSTALL COMPOSER
 •	Downlaod Composer https://getcomposer.org/download/
 
-•	Install file composer seperti biasa. Jika sudah buka terminal dan ketik “composer”, untuk memeriksa composer sudah terinstall atau belum.
+•	Install file composer seperti biasa. Jika sudah buka terminal dan ketik ``composer``, untuk memeriksa composer sudah terinstall atau belum.
 
 ## INSTALL LARAVEL VIA COMPOSER
 •	Buka website https://laravel.com/docs/9.x#installation-via-composer, untuk menyalin command installasi laravel via composer
