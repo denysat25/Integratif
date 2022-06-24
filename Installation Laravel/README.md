@@ -63,7 +63,7 @@ cd pintegratif/
 ```
 code .\pintegratif\
 ```
-  ![](Assets/013.png)
+  ![](Assets/012.png)
   
 • Maka akan secara otomatis membuka aplikasi visual studio code
 •	Klik menu terminal pada bagian atas, pilih terminal baru, lalu masukkan command
