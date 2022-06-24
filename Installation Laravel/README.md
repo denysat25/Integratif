@@ -75,3 +75,61 @@ php artisan serve
 •	Copy server laravel, untuk dibuka di browser
 
   ![](Assets/014.png)
+  
+<br />
+
+-----
+### Tahap 2
+•	Ubah DB_DATABASE di .env sesuai dengan nama database yang dibuat di phpmyadmin
+
+  ![](Assets/015.jpg)
+  ![](Assets/016.jpg)
+
+• Buat 2 table rss dan news dengan fitur migrations menggunakan perintah
+  ```
+  php artisan make:migration create_rss_table
+  
+  php artisan make:migration create_news_table
+  ```
+• Tambahkan kolom name dan url pada tabel rss, seperti pada gambar dibawah
+  ![](Assets/017.jpg)
+
+• Tambahkan kolom title, img_url, description, source_url,  dan rss_id pada tabel news, seperti pada gambar dibawah
+  ![](Assets/018.jpg)
+
+• Untuk menjalankan migrasi yang dibuat jalankan perintah diterminal seperti dibawah, lalu cek database
+  ```
+  php artisan migrate
+  ```
+  ![](Assets/019.jpg)
+
+• Buat koneksi  model  ke database  dengan membuat seeder dan controller untuk tabel Rss dan News, dengan perintah
+  ```
+  php artisan make:model Rss –seed –controller
+  ``
+  ![](Assets/020.jpg)
+  ```
+  php artisan make:model Rss –seed –controller
+  ``
+  ![](Assets/021.jpg)
+• Edit file Rss.php, RssSeeder.php serta DatabaseSeeder.php seperti pada gambar dibawah
+  ![](Assets/022.jpg)
+  ![](Assets/023.jpg)
+  ![](Assets/024.jpg)
+  
+• Kemudian cek koneksi dengan perintah
+  ```
+  php artisan db:seed
+  ```
+  ![](Assets/025.jpg)
+  
+• Edit file News.php, NewsController.php, web.php, serta file migration News seperti pada gambar dibawah
+  ![](Assets/026.jpg)
+  ![](Assets/027.jpg)
+  ![](Assets/028.jpg)
+  ![](Assets/029.jpg)
+
+• Cek localhost di http://127.0.0.1:8000/aggregrate/1 dan di database phpmyadmin
+  ![](Assets/030.jpg)
+  ![](Assets/031.jpg)
+  
