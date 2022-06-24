@@ -59,13 +59,19 @@ composer create-project laravel/laravel nama_project
 ```
 cd pintegratif/
 ```
-•	Dan jalankan project dengan command
+• Kemudian buka file installasi laravel dengan text editor (disini dengan visual studio code) dengan command 
+```
+code .\pintegratif\
+```
+  ![](Assets/013.png)
+  
+• Maka akan secara otomatis membuka aplikasi visual studio code
+•	Klik menu terminal pada bagian atas, pilih terminal baru, lalu masukkan command
 ```
 php artisan serve
 ```
-
-  ![](Assets/012.png)
+  ![](Assets/013.png)
   
 •	Copy server laravel, untuk dibuka di browser
 
-  ![](Assets/013.png)
+  ![](Assets/014.png)
