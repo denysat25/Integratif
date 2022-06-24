@@ -61,7 +61,7 @@ cd pintegratif/
 ```
 • Kemudian buka file installasi laravel dengan text editor (disini dengan visual studio code) dengan command 
 ```
-code .\pintegratif\
+code ./pintegratif
 ```
   ![](Assets/012.png)
   
